@@ -2,6 +2,8 @@
 
 [← Innehållsförteckning](README.md) · [← Säkerhet och Git](04-sakerhet-och-git.md)
 
+**Nivå:** Alla. **Förkunskaper:** inga. Använd uppslagsdelen när som helst under din [lärstig](larstig/00-borja-har.md).
+
 Här finns korta förklaringar och länkar till lärobokens praktiska exempel. Alla kapitel går att läsa separat.
 
 ## PowerShell
