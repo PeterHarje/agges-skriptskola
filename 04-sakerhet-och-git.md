@@ -2,6 +2,8 @@
 
 [← Innehållsförteckning](README.md) · [← Python](03-python-grunder.md) · [Ordlista →](05-ordlista.md)
 
+**Nivå:** 2–3 – Fortsättning och fördjupning. **Förkunskaper:** förstå enkla skript och villkor. [Nivå 2](larstig/02-fortsattning.md) · [Nivå 3](larstig/03-fordjupning.md).
+
 **Mål:** kunna skilja mellan kod, test, driftsättning och dokumentation. Förstå varför vi använder GitHub som projektminne.
 
 ## Git på två minuter
