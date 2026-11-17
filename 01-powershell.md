@@ -2,6 +2,8 @@
 
 [← Innehållsförteckning](README.md) · [Linux →](02-linux-terminal.md)
 
+**Nivå:** 1 – Nybörjare (funktioner och felhantering passar även nivå 2). **Förkunskaper:** inga om du börjar med variabler. [Lärstig nivå 1](larstig/01-nyborjare.md).
+
 **Målet:** förstå vanliga PowerShell-konstruktioner och kunna förklara vad ett skript gör innan det körs. Exemplen nedan ändrar inga systeminställningar.
 
 ## Kommandon som består av verb och substantiv
