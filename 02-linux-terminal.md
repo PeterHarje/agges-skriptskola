@@ -2,6 +2,8 @@
 
 [← Index](README.md) · [← PowerShell](01-powershell.md) · [Python →](03-python-grunder.md)
 
+**Nivå:** 1 – Nybörjare. **Förkunskaper:** inga om du börjar med `clear`, `pwd` och `ls`. [Lärstig nivå 1](larstig/01-nyborjare.md).
+
 **Målet:** förstå de Linux-kommandon vi använder när vi undersöker en server. Exemplen ska provas i en egen **testmiljö**, inte på någon produktionsserver utan en särskild plan.
 
 ## Hitta rätt
