@@ -2,6 +2,8 @@
 
 [← Index](README.md) · [← Linux](02-linux-terminal.md) · [Säkerhet/Git →](04-sakerhet-och-git.md)
 
+**Nivå:** 1–2 – Nybörjare till fortsättning. **Förkunskaper:** inga för första exemplet; grundläggande variabler inför tester. [Nivå 1](larstig/01-nyborjare.md) · [Nivå 2](larstig/02-fortsattning.md).
+
 **Målet:** förstå variabler, villkor, funktioner, JSON, SHA256 och automatiska tester. Exemplen kräver bara vanlig Python.
 
 ## Variabler, villkor och funktioner
