@@ -26,6 +26,38 @@ Vi börjar med **ofarliga, läsande exempel**. Vi övar inte på att ändra en r
 
 Du behöver inte läsa alla tre samtidigt. Börja med den som lockar dig.
 
+## För sjutton gubbar – första resultatet på två minuter!
+
+Välj **ett enda** alternativ. De här exemplen räknar bara ut ett tal och **skriver ingen fil**.
+
+**Windows / PowerShell:**
+
+~~~powershell
+Write-Output (21 * 2)
+~~~
+
+**Linux / terminal:**
+
+~~~bash
+echo $((21 * 2))
+~~~
+
+**Python 3:**
+
+~~~python
+print(21 * 2)
+~~~
+
+**Förväntat resultat i samtliga tre fall:**
+
+~~~text
+42
+~~~
+
+**Prova sedan själv:** Ändra `21` till `25`. Vilket resultat tror du att du får **innan** du kör? Kör igen och kontrollera. Då har du redan läst, förstått och ändrat ditt första lilla kodexempel.
+
+Om du inte har något av programmen installerat kan du bara läsa raderna och förklara vad de gör – det räknas också som ett första steg.
+
 ## Första övningen – förstå, inte memorera
 
 Öppna ett kodexempel i ditt valda kapitel och svara med egna ord:
