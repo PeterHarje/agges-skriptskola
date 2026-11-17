@@ -2,68 +2,84 @@
 
 ### AggE's Script School for Easy Learning
 
-### Från nyfikenhet till förståelse – en praktisk lärobok om PowerShell, Linux, Python och säker programmering
+**Lär dig förstå skript – från första raden till säkrare programmering.**
 
-**En öppen, svenskspråkig programmeringsskola från Junkpile Tech Studio · Version 0.1 · november 2026**
+En öppet läsbar, svenskspråkig skriptskola från **Junkpile Tech Studio**. Här ska ingen behöva känna sig dum för att ett kommando ser obegripligt ut. Vi tar en tråd i taget: **vad gör det, varför gör det så, hur provar jag själv och hur vet jag att det fungerade?**
 
-> **Grundidé:** Det räcker inte att kod fungerar. Vi ska också kunna förstå **varför** den fungerar, **vad** den får göra och **hur** vi verifierar resultatet.
+> **Målet:** Att någon provar ett exempel och utbrister: **”För sjutton gubbar … det fungerar ju! Jag fattar varför!”** 😄
 
-Det här är en växande, svenskspråkig kodbok för personer som är nyfikna på programmering, från första försöket till praktiskt säkerhetsarbete. Vi använder ofarliga, verklighetsnära exempel utan lösenord, produktionsnycklar eller instruktioner för att ändra någon verklig produktionsserver.
+**Version:** 0.2 – november 2026 · **Språk:** svenska med vanliga engelska kodtermer · **Format:** Markdown på GitHub
 
-Boken är skriven för att gå att läsa **uppifrån och ned** eller slå upp som referens. Varje kapitel har korta exempel, förklaringar av kommandon, varför vi använder dem och små övningar.
+## Välj din kunskapsnivå
 
----
+Du får börja var som helst. Om något känns för svårt, gå tillbaka en nivå; om det känns enkelt, hoppa vidare. Tiderna är uppskattningar, inte krav.
 
-## Innehållsförteckning
+| Nivå | För dig som … | Det här övar du på | Starta här |
+| --- | --- | --- | --- |
+| **0 · Börja här** | aldrig programmerat | Vad är skript, kommando, variabel och villkor? | [Öppna nivå 0](larstig/00-borja-har.md) |
+| **1 · Nybörjare** | vill förstå små kodexempel | Variabler, `if/else`, läsande kommandon | [Öppna nivå 1](larstig/01-nyborjare.md) |
+| **2 · Fortsättning** | kan grunderna och vill bygga vidare | Funktioner, data, felhantering, automatiska tester | [Öppna nivå 2](larstig/02-fortsattning.md) |
+| **3 · Fördjupning** | vill förstå säkrare system och utveckling | SHA256, behörighet, Git, isolerade tester | [Öppna nivå 3](larstig/03-fordjupning.md) |
 
-| Kapitel | Ämne | Vad du lär dig |
+### Eller välj ett språk direkt
+
+| Kapitel | Innehåll | Passar från |
 | --- | --- | --- |
-| [01. PowerShell – förstå vad kommandot gör](01-powershell.md) | Windows/PowerShell | Variabler, Test-Path, if/else, funktioner, pipeline och felhantering |
-| [02. Linux – läsande kontroller](02-linux-terminal.md) | Linux/terminal | clear, sed, grep, stat, rättigheter och filsystem |
-| [03. Python – begriplig kod och testning](03-python-grunder.md) | Python | Funktioner, JSON, SHA256, undantag och unittest |
-| [04. Säkerhet, Git och dokumentation](04-sakerhet-och-git.md) | Arbetsmetod | Git, commits, CI, minsta behörighet, fail-closed och överlämning |
-| [05. Kommandoindex och ordlista](05-ordlista.md) | Snabbreferens | Alfabetiskt orienterad begreppssamling och länkar till kodexempel |
+| [1. PowerShell](01-powershell.md) | Variabler, villkor, pipeline, funktioner och felhantering | **Nivå 1** |
+| [2. Linux och terminalen](02-linux-terminal.md) | `clear`, `pwd`, `ls`, `stat`, `grep`, rättigheter | **Nivå 1** |
+| [3. Python](03-python-grunder.md) | Funktioner, JSON, SHA256, undantag och `unittest` | **Nivå 1–2** |
+| [4. Säkerhet och Git](04-sakerhet-och-git.md) | Git, commits, CI, minsta behörighet, dokumentation | **Nivå 2–3** |
+| [5. Kommandoindex och ordlista](05-ordlista.md) | Slå upp begrepp och hitta tillbaka till exemplen | **Alla nivåer** |
 
-## Så använder du boken
+Du behöver **inte** lära dig alla språk. Välj det som passar din dator eller ditt intresse.
 
-**Om du är nybörjare:** Börja med PowerShell eller Linux och prova de små, läsande kommandona i en egen testmiljö. Läs ett kodblock i taget och försök formulera med egna ord vad varje rad gör.
+## För skolan, studiecirkeln eller den som hjälper en vän
 
-**Om du redan programmerar:** Använd kapitlen som snabb uppslagsbok. Jämför framför allt hur vi hanterar fel, filrättigheter, verifiering och gränsen mellan observation och exekvering.
+Vi vill göra det lätt att använda skriptskolan tillsammans. Varje nivå har **förkunskaper, lärandemål, praktiska uppgifter och självtest**.
 
-**Om du undervisar eller delar:** Länka till det kapitel som passar. Exemplen innehåller inga verkliga hemligheter. Kontrollera dock alltid programversioner, lokala rättigheter och miljö innan någon kör ett kommando.
+[Läs lärarhandledningen](for-larare.md) för ett lektionsupplägg, förslag till bedömning och sätt att anpassa tempot efter olika deltagare. Det är ett öppet undervisningsunderlag, **inte en officiell kursplan eller certifiering**.
 
-### Vårt arbetssätt: en tråd i taget
+## Varför heter det Junkpile?
 
-När ett projekt innehåller hundra idéer behöver vi inte göra allt samtidigt. Vi arbetar enligt samma mönster:
+> **”Där du ser tre trasiga datorer ser vi en hel.”**
 
-1. **Förstå** vad problemet faktiskt är.
-2. **Läs och undersök** innan vi skriver eller ändrar.
-3. **Förklara** vad varje viktigt kommando gör.
-4. **Testa i isolerad miljö** med testdata.
-5. **Dokumentera** vad som är verifierat och vad som återstår.
-6. **Ändra produktion endast med tydlig plan och lämpliga rättigheter.**
+Det sammanfattar vår tro på **återbruk före onödiga nyinköp**. Går något att felsöka, reparera eller använda igen är det värt att undersöka. Ibland kan fungerande delar från flera trasiga datorer bli en fungerande dator. Samma idé gäller för kod: förstå vad som redan fungerar, ändra en sak och testa igen.
 
-En lyckad testkörning är värdefull, men den är inte ett universellt bevis på säkerhet.
+**Junkpile Tech Studio** är ett planerat teknik- och skapandeföretag där återbruk, programmering, AI och praktisk hjälp hör ihop.
 
-## Återkommande struktur för nya kapitel
+**Frankenstein Junkpile** är musikprojektet där vi förenar rock, industriella och elektroniska ljud, science fiction och teknikglädje. Vår fiktiva robotfigur **AggE/Algot Rustborn** är en del av det kreativa universumet – och har fått låna sitt namn till skriptskolan.
 
-Varje nytt kapitel bör innehålla: mål, när kommandot används, körbart litet exempel, rad-för-rad-förklaring, risker/rättigheter, en eller två egna övningar och en länk till nästa kapitel. Nya kommandon ska läggas till i [ordlistan](05-ordlista.md) och i tabellen här.
+[Läs hela berättelsen om Junkpile, återbruket och musiken](om-junkpile.md).
 
-**Planerade framtida ämnen:** PowerShell-objekt och moduler, regex och loggfelsökning, Bash-villkor och loopar, systemd som begrepp, JSON/API:er, Git-arbetsflöden, SQLite, enhetstester och säker filhantering. Dessa kapitel är **ännu inte skrivna**.
+## Så lär vi oss: en tråd i taget
 
-## Om säkerhet och användning
+1. **Förstå** problemet innan du försöker lösa det.
+2. **Läs** vad kommandot gör och vilka rättigheter det kräver.
+3. **Gissa** resultatet innan du provar.
+4. **Testa** med ofarliga exempel i en egen testmiljö.
+5. **Jämför** resultatet med det du väntade dig.
+6. **Förklara** med egna ord och dokumentera det du lärt dig.
 
-- Övningarna är avsedda för **egna testmiljöer**, inte för okontrollerade ändringar på produktion.
-- Exempel får inte innehålla faktiska API-nycklar, signeringsnycklar eller känsliga personuppgifter.
-- Kommandon och beteenden kan skilja sig mellan operativsystem och versioner. Läs alltid dokumentationen för din miljö.
-- Det är tillåtet att läsa materialet i ett publikt repo. Villkor för vidare kopiering, ändring och återpublicering bestäms av projektets licens när den har valts.
+Om du kan förklara något för en annan människa har du ofta förstått det på riktigt.
 
-### Projektanknytning
+## Säkerhet
 
-Kodboken är inspirerad av praktiskt arbete med programmering och felsökning, men är **undervisningsmaterial, inte en driftsättningsmanual**. Teknikexemplen är förenklade för lärande och ska inte ersätta säkerhetsgranskning.
+- Kör aldrig okända skript som administratör bara för att det står så i ett exempel.
+- Lärobokens kod ska provas med testdata – **inte på arbetsplatsens eller skolans produktionssystem**.
+- Publicera inte lösenord, API-nycklar, privata filer eller andra personers uppgifter.
+- Ett grönt test betyder att **just det testet** lyckades. Det är inte ett bevis på att all kod är säker.
+- Följ regler och behörigheter på den dator där du arbetar.
+
+## Hur boken växer
+
+Nya kapitel ska **alltid märkas med kunskapsnivå** och länkas från både den här startsidan och [ordlistan](05-ordlista.md) när nya kommandon introduceras.
+
+Vi planerar bland annat fortsättningar om PowerShell-objekt, loggfelsökning, Bash-loopar, JSON/API:er, SQLite och mer automatiserad testning. **Det är planerat material, inte färdigskrivna kapitel.**
+
+[Läs principerna för att bidra till skriptskolan](BIDRA.md).
+
+**Delning:** Repot är offentligt och kan läsas av alla. En uttrycklig licens för vidarekopiering, bearbetning och återpublicering ska väljas; publik åtkomst innebär inte automatiskt fri licens.
 
 ---
 
-**Bokens löfte:** Vi ska inte bara kopiera ett kommando – vi ska förstå det. ❤️🤘
-
-**Språk:** Svenska, med engelska programmeringstermer och en engelsk undertitel. Licens för återanvändning fastställs innan extern publicering.
+**Vi ska inte bara kopiera ett kommando – vi ska förstå det.** ❤️🤘
