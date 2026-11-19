@@ -1,0 +1,4 @@
+JUNKPILE_PUBLIC_RAW_TEST_V1
+Repo: PeterHarje/agges-skriptskola
+Syfte: kontrollera anonym läsning från MEDIA
+Ingen hemlighet eller körbar kod finns i denna fil.
